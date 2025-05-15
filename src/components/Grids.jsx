@@ -38,6 +38,51 @@ export function Grids() {
 
         </p>
         </CardSpotlight>
+        
+        <CardSpotlight className="h-54 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+
+        </p>
+        <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+
+        </p>
+        </CardSpotlight>
+
+        <CardSpotlight className="h-54 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+
+        </p>
+        <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+
+        </p>
+        </CardSpotlight>
+
+        <CardSpotlight className="h-54 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+
+        </p>
+        <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+
+        </p>
+        </CardSpotlight>
+
+        <CardSpotlight className="h-54 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+
+        </p>
+        <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+
+        </p>
+        </CardSpotlight>
+
+        <CardSpotlight className="h-54 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+
+        </p>
+        <p className="text-neutral-300 mt-4 relative z-20 text-sm">
+
+        </p>
+        </CardSpotlight>
     </div>
   );
 }
