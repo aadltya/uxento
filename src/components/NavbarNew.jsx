@@ -1,5 +1,3 @@
-"use client";
-
 import { Landing } from "./Landing";
 import {
   Navbar,
@@ -18,7 +16,7 @@ import { faXTwitter, faDiscord, faTelegram } from "@fortawesome/free-brands-svg-
 export function NavbarNew() {
   const navItems = [
     { name: "Features", link: "#features" },
-    { name: "Platform", link: "#pricing" },
+    { name: "Platforms", link: "#platforms" },
     { name: "Docs", link: "https://uxento.gitbook.io/uxtension" },
   ];
 
