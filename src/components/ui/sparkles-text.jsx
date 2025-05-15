@@ -1,6 +1,11 @@
-import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+"use client";
+
+import { motion } from "motion/react";
+import { CSSProperties, ReactElement, useEffect, useState } from "react";
+
 import { cn } from "../../lib/utils";
+
+
 
 const Sparkle = ({ id, x, y, color, delay, scale }) => {
   return (
@@ -25,6 +30,7 @@ const Sparkle = ({ id, x, y, color, delay, scale }) => {
     </motion.svg>
   );
 };
+
 
 export const SparklesText = ({
   text,
@@ -60,7 +66,7 @@ export const SparklesText = ({
           } else {
             return { ...star, lifespan: star.lifespan - 0.1 };
           }
-        })
+        }),
       );
     };
 
@@ -74,10 +80,12 @@ export const SparklesText = ({
     <div
       className={cn("text-6xl font-bold", className)}
       {...props}
-      style={{
-        "--sparkles-first-color": `${colors.first}`,
-        "--sparkles-second-color": `${colors.second}`,
-      }}
+      style={
+        {
+          "--sparkles-first-color": `${colors.first}`,
+          "--sparkles-second-color": `${colors.second}`,
+        }
+      }
     >
       <span className="relative inline-block">
         {sparkles.map((sparkle) => (
