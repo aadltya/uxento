@@ -20,7 +20,10 @@ export function Landing() {
             uxento upgrades your favorite DEX sites with a fresh interface and smart tools—so you can trade meme coins without the fuss.
           </p>
           <div className="mt-4">
-            <button className="cursor-pointer py-3 px-6 bg-[#4B59E4] text-white rounded-md font-semibold" >
+            <button 
+              className="cursor-pointer py-3 px-6 bg-[#4B59E4] text-white rounded-md font-semibold" 
+              onClick={() => window.open("https://chromewebstore.google.com/detail/uxtension/pljeffieceahpjcgldlglfidenecjloh", "_blank")}
+            >
                 Download Extension
                 <FontAwesomeIcon icon={faArrowRight} className="ml-2"/>
             </button>
