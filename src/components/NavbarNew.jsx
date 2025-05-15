@@ -12,6 +12,7 @@ import {
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faDiscord, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { GridInfo } from "./GridInfo";
 
 export function NavbarNew() {
   const navItems = [
@@ -131,7 +132,7 @@ const Content = () => {
   return (
     <div>
       <Landing />
-      <div className="h-screen w-full"></div>
+      <GridInfo />
     </div>
   );
 };

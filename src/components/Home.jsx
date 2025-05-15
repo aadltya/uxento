@@ -3,7 +3,7 @@ import { NavbarNew } from "./NavbarNew";
 
 export function Home() {
     return (
-        <div className="h-screen w-full bg-gray-950" >
+        <div className="h-full w-full bg-neutral-950" >
             <NavbarNew />
         </div>
     );
