@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faDiscord, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { GridInfo } from "./GridInfo";
 import { Grids } from "./Grids";
+import { Footer } from "./Footer";
 
 export function NavbarNew() {
   const navItems = [
@@ -135,6 +136,7 @@ const Content = () => {
       <Landing />
       <GridInfo />
       <Grids />
+      <Footer />
     </div>
   );
 };

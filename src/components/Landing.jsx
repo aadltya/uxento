@@ -34,8 +34,8 @@ export function Landing() {
             </span>
           </div>
         </div>
-        <div className="h-[80%] mt-14 w-full bg-slate-900 rounded-2xl">
-          {/* You can place an image or graphic here */} mobile view here
+        <div className="h-[80%] mt-14 w-full rounded-2xl">
+          {/* You can place an image or graphic here */} 
         </div>
       </div>
     );
