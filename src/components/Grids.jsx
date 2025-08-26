@@ -2,7 +2,7 @@ import { CardSpotlight } from "../components/ui/card-spotlight";
 
 export function Grids() {
 	return (
-		<div className="min-h-screen w-11/12 md:w-10/12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto mt-14 cursor-default">
+		<div id="platforms" className="min-h-screen w-11/12 md:w-10/12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto mt-14 cursor-default">
 			<CardSpotlight className="h-52 w-full max-w-md mx-auto">
 				<p className="text-xl font-bold relative z-20 mt-2 text-white">
 					Enhaned Trading UI

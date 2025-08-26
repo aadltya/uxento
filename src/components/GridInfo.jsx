@@ -2,7 +2,7 @@ import { SparklesText } from "./ui/sparkles-text";
 
 export function GridInfo() {
     return (
-      <div className='h-full w-full text-white mt-6' >
+      <div id="features" className='h-full w-full text-white mt-6' >
           <div className="flex justify-center ">
             <span>
               <h1>
